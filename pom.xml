@@ -7,6 +7,13 @@
 
 	<version>0.0.1</version>
 	
+		<licenses>
+		<license>
+			<name>The Apache Software License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+			<distribution>manual</distribution>
+		</license>
+	</licenses>
 	
 	<developers>
 		<developer>
@@ -135,4 +142,7 @@
 	<ciManagement>
 		<url>https://travis-ci.org/vincentk/unit16-exchange/builds/</url>
 	</ciManagement>
+	<scm>
+		<url>git@github.com:vincentk/unit16-z.git</url>
+	</scm>
 </project>
