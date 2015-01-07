@@ -5,7 +5,7 @@
 	<groupId>com.unit16</groupId>
 	<artifactId>unit16-exchange</artifactId>
 
-	<version>0.0.1</version>
+	<version>0.0.2-SNAPSHOT</version>
 	
 		<licenses>
 		<license>
