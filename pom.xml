@@ -5,16 +5,16 @@
 	<groupId>com.github.vincentk</groupId>
 	<artifactId>unit16-exchange</artifactId>
 
-	<version>0.0.6</version>
-	
-		<licenses>
+	<version>0.0.8</version>
+
+	<licenses>
 		<license>
 			<name>The Apache Software License, Version 2.0</name>
 			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
 			<distribution>manual</distribution>
 		</license>
 	</licenses>
-	
+
 	<developers>
 		<developer>
 			<name>Vincent Kraeutler</name>
@@ -22,7 +22,7 @@
 			<organizationUrl>https://github.com/vincentk</organizationUrl>
 		</developer>
 	</developers>
-	
+
 	<build>
 		<pluginManagement>
 			<plugins>
@@ -38,21 +38,21 @@
 			</plugins>
 		</pluginManagement>
 	</build>
-	
+
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
-	
+
 	<dependencies>
 		<dependency>
 			<groupId>com.github.vincentk</groupId>
 			<artifactId>unit16-z</artifactId>
-			<version>0.0.7</version>
+			<version>0.0.8</version>
 		</dependency>
 	</dependencies>
-	
-	
-		<!-- See http://central.sonatype.org/pages/apache-maven.html -->
+
+
+	<!-- See http://central.sonatype.org/pages/apache-maven.html -->
 	<distributionManagement>
 		<snapshotRepository>
 			<id>ossrh</id>
