@@ -1,8 +1,9 @@
 package com.unit16.exchange.api.orders;
 
+import java.util.function.Consumer;
+
 import com.unit16.exchange.api.HasId;
 import com.unit16.exchange.api.orders.ExceptionHandler.Response;
-import com.unit16.z.Continuation;
 import com.unit16.z.WithCopyMethod;
 
 public interface UniqueResponse extends Response, HasId {
@@ -81,13 +82,13 @@ public interface UniqueResponse extends Response, HasId {
 		}
 	}
 	
-	public static final class HandlerIsContinuation implements Continuation<UniqueResponse>
+	public static final class HandlerIsContinuation implements Consumer<UniqueResponse>
 	{
 		private final OrderAndTradeHandler oh;
 		public HandlerIsContinuation(OrderAndTradeHandler oh_) { oh = oh_; }
 
 		@Override
-		public void handle(UniqueResponse val) {
+		public void accept(UniqueResponse val) {
 
 			if (val instanceof Exposure)
 			{
